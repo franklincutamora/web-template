@@ -1,0 +1,49 @@
+/*! SLIDERS */
+.slider-image {
+    position: relative;
+    height: calc(30vw);
+    width: 100%;
+
+    @include media(max, 576) {
+        height: calc(30vh);
+        padding: 0 30px;
+    }
+
+    &.one {
+        background-color: $blue;
+    }
+
+    &.two {
+        background-color: $indigo;
+    }
+
+    &.three {
+        background-color: $purple;
+    }
+
+    &.one,
+    &.two,
+    &.three {
+        >h2 {
+            display: block;
+            width: calc(80vw);
+            padding-top: calc(19vw);
+            margin: auto;
+
+            @include media(max, 576) {
+                font-size: 1rem;
+            }
+
+            @include media(min, 567) {
+                font-size: 1.5rem;
+                padding-top: calc(11vw);
+            }
+        }
+    }
+}
+
+/*! END OF SLIDERS */
+/*! 
+*
+*
+*/

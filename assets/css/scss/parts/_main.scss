@@ -1,0 +1,29 @@
+/*! MAIN */
+main {
+    padding-top: 48px;
+    line-height: 1.5em;
+
+    @include media(max, 576) {
+        padding-top: 56px;
+    }
+}
+
+.sec-cards {
+    padding: 40px 0;
+
+    @include media(max, 576) {
+        div[class*="align-"] {
+            text-align: center;
+        }
+    }
+}
+
+.progress {
+    margin-bottom: 20px;
+}
+
+/*! END OF MAIN */
+/*! 
+*
+*
+*/

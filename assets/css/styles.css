@@ -1,0 +1,112 @@
+/*! COMMON */
+.align-right {
+  text-align: right; }
+
+.align-left {
+  text-align: left; }
+
+.align-center {
+  text-align: center; }
+
+.clearfix {
+  clear: both;
+  overflow: hidden; }
+
+.hidden,
+.display-on-pc {
+  display: none; }
+
+.invisible {
+  visibility: hidden; }
+
+.bold {
+  font-weight: 700px; }
+
+.italic {
+  font-style: italic; }
+
+.underline {
+  text-decoration: underline; }
+
+@media only screen and (min-width: 1000px) and (min-width: 320px) {
+  .display-on-pc {
+    display: unset; } }
+
+/*! END OF COMMON */
+/*! HEADER */
+/*! no rules here to see yet */
+/*! END OF HEADER */
+/*! 
+*
+*
+*/
+/*! SLIDERS */
+.slider-image {
+  position: relative;
+  height: calc(30vw);
+  width: 100%; }
+  @media only screen and (max-width: 576px) and (min-width: 320px) {
+    .slider-image {
+      height: calc(30vh);
+      padding: 0 30px; } }
+  .slider-image.one {
+    background-color: #007bff; }
+  .slider-image.two {
+    background-color: #6610f2; }
+  .slider-image.three {
+    background-color: #6f42c1; }
+  .slider-image.one > h2, .slider-image.two > h2, .slider-image.three > h2 {
+    display: block;
+    width: calc(80vw);
+    padding-top: calc(19vw);
+    margin: auto; }
+    @media only screen and (max-width: 576px) and (min-width: 320px) {
+      .slider-image.one > h2, .slider-image.two > h2, .slider-image.three > h2 {
+        font-size: 1rem; } }
+    @media only screen and (min-width: 567px) and (min-width: 320px) {
+      .slider-image.one > h2, .slider-image.two > h2, .slider-image.three > h2 {
+        font-size: 1.5rem;
+        padding-top: calc(11vw); } }
+
+/*! END OF SLIDERS */
+/*! 
+*
+*
+*/
+/*! MAIN */
+main {
+  padding-top: 48px;
+  line-height: 1.5em; }
+  @media only screen and (max-width: 576px) and (min-width: 320px) {
+    main {
+      padding-top: 56px; } }
+
+.sec-cards {
+  padding: 40px 0; }
+  @media only screen and (max-width: 576px) and (min-width: 320px) {
+    .sec-cards div[class*="align-"] {
+      text-align: center; } }
+
+.progress {
+  margin-bottom: 20px; }
+
+/*! END OF MAIN */
+/*! 
+*
+*
+*/
+/*! FOOTER */
+footer {
+  background-color: #a7e9f4; }
+
+.sec-footer {
+  padding: 50px 0; }
+
+.copyright {
+  padding: 20px; }
+
+/*! END OF FOOTER */
+/*! 
+*
+*
+*/

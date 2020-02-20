@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "block-no-empty": true,
+    "comment-no-empty": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "max-empty-lines": 1,
+    "no-duplicate-selectors": true,
+    "no-empty-source": true,
+    "no-extra-semicolons": true,
+    "property-no-unknown": true,
+    "unit-no-unknown": true,
+  }
+}

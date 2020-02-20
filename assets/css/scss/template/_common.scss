@@ -1,0 +1,43 @@
+@import '../base/variables';
+@import '../base/mixin';
+
+/*! COMMON */
+@each $align in $alignments {
+	.align-#{nth($align, 1)} {
+		text-align: nth($align, 1);
+	}
+}
+
+.clearfix {
+	clear: both;
+	overflow: hidden;
+}
+
+.hidden,
+.display-on-pc {
+	display: none;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.bold {
+	font-weight: 700px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+@include media(min, 1000) {
+	.display-on-pc {
+		display: unset;
+	}
+}
+
+/*! END OF COMMON */

@@ -1,0 +1,11 @@
+@mixin media($range: max, $val: 767, $rangeSec: min, $val2: 320) {
+    @if $rangeSec != "" {
+        @media only screen and (#{$range}-width: #{$val}px) and (#{$rangeSec}-width: #{$val2}px) {
+            @content;
+        }
+    } @else {
+        @media only screen and (#{$range}-width: #{$val}px) {
+            @content;
+        }
+    }
+}
